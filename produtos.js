@@ -111,8 +111,6 @@ export let produtos = [
 
 //let nomes = produtos.map(produto => produto.nome); // Cria um novo array contendo apenas os nomes dos produtos usando o método map().
 
-
-
 //let descontos = produtos.map(produto => ({...produto, descontos: produto.preco_venda * 0.9})); // Cria um novo array de produtos com um desconto de 10% no preço de venda usando o método map() e o operador spread para copiar as propriedades do objeto original.
 
 //let estoqueBaixo = produtos.filter(produto => produto.rotatividade === "alta" && produto.curva_abc === "A" && produto.estoque <= 50); // Cria um novo array contendo apenas os produtos com rotatividade "alta" e estoque menor ou igual a 50 usando o método filter().
@@ -129,9 +127,9 @@ export let produtos = [
 
 //console.table(descontos); // Exibe a lista de produtos em formato de tabela no console usando o método console.table().
 
-let estoqueFind = produtos.find(produto => produto.estoque <= 50);
+//let estoqueFind = produtos.find(produto => produto.estoque <= 50);
 
-console.log(estoqueFind); // Exibe a lista de produtos com estoque baixo em formato de tabela no console usando o método console.table().
+/* console.log(estoqueFind); // Exibe a lista de produtos com estoque baixo em formato de tabela no console usando o método console.table().
 
-let estoque = produtos.find(produto => produto.estoque <= 50); // Es
-console.table(estoque)
+/* let estoque = produtos.find(produto => produto.estoque <= 50); // Es
+console.table(estoque)*/
